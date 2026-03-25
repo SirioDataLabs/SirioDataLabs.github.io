@@ -30,7 +30,6 @@ body {
   height: auto;
   aspect-ratio: 1240 / 300;
   object-fit: contain;
-  display: block;
 }
 
 @media (min-width: 1024px) {
@@ -39,6 +38,14 @@ body {
   }
 }
 
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .hero img {
+    content: url("assets/banner-desktop.png");
+    aspect-ratio: 1240 / 420;
+  }
+}
 
 /* ===============================
    Contenedores generales
