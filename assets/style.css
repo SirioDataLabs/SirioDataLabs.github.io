@@ -15,7 +15,7 @@ body {
 }
 
 /* ===============================
-   Banner / Hero
+   Hero banner (mobile default)
 ================================ */
 
 .hero {
@@ -30,22 +30,20 @@ body {
   height: auto;
   aspect-ratio: 1240 / 300;
   object-fit: contain;
+  display: block;
 }
 
-@media (min-width: 1024px) {
-  .hero img {
-    max-height: 360px;
-  }
-}
+/* ===============================
+   Hero banner (desktop upgrade)
+================================ */
 
-
-/* Desktop */
 @media (min-width: 1024px) {
   .hero img {
     content: url("assets/banner-desktop.png");
     aspect-ratio: 1240 / 420;
   }
 }
+
 
 /* ===============================
    Contenedores generales
