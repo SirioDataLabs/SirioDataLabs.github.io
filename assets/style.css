@@ -20,16 +20,15 @@ body {
 .hero {
   width: 100%;
   background: linear-gradient(135deg, #1a73e8, #174ea6);
-  padding-top: 48px;     /* 👈 baja visualmente el banner */
-  padding-bottom: 8px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
-
 
 .hero img {
   width: 100%;
   max-height: 320px;
   object-fit: cover;
+  object-position: center 75%;
   display: block;
 }
 
