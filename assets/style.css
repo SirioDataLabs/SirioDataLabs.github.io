@@ -20,7 +20,7 @@ body {
 .hero {
   width: 100%;
   background: linear-gradient(135deg, #1a73e8, #174ea6);
-  padding-top: 24px;     /* 👈 baja visualmente el banner */
+  padding-top: 48px;     /* 👈 baja visualmente el banner */
   padding-bottom: 8px;
   margin-bottom: 40px;
 }
