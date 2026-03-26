@@ -50,13 +50,15 @@ body {
    Logo corporativo
 ================================ */
 
+
 .logo {
-  width: 160px;
-  max-width: 70%;
-  height: auto;
-  margin: 0 auto 24px auto;
-  display: block;
+  display: block;          /* evita comportamiento inline raro */
+  max-width: 140px;        /* tamaño máximo razonable */
+  width: 100%;             /* se adapta si el contenedor es menor */
+  height: auto;            /* mantiene proporción */
+  margin: 0 auto 20px;     /* centra horizontalmente */
 }
+
 
 /* ===============================
    Logo corporativo (mobile default)
