@@ -45,6 +45,29 @@ body {
 }
 
 
+
+/* ===============================
+   Logo corporativo
+================================ */
+
+.logo {
+  width: 160px;
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto 24px auto;
+  display: block;
+}
+
+/* ===============================
+   Logo corporativo (mobile default)
+================================ */
+
+@media (max-width: 768px) {
+  .logo {
+    width: 120px;
+  }
+}
+
 /* ===============================
    Contenedores generales
 ================================ */
