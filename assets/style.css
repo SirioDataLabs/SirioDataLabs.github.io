@@ -44,12 +44,9 @@ body {
   }
 }
 
-
-
 /* ===============================
    Logo corporativo
 ================================ */
-
 
 .logo {
   display: block;          /* evita comportamiento inline raro */
@@ -59,14 +56,14 @@ body {
   margin: 0 auto 20px;     /* centra horizontalmente */
 }
 
-
 /* ===============================
    Logo corporativo (mobile default)
 ================================ */
 
 @media (max-width: 768px) {
   .logo {
-    width: 120px;
+    max-width: 110px;
+    margin-bottom: 16px;
   }
 }
 
