@@ -206,6 +206,38 @@ footer {
 }
 
 
+/* FOOTER LINKS */
+
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-links {
+  margin-top: 12px;
+}
+
+.footer-links a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links span {
+  margin: 0 4px;
+  color: #999;
+}
+
+
+
 /* ===============================
    Responsive (móvil)
 ================================ */
