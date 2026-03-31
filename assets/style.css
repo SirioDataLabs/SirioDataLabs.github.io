@@ -90,6 +90,16 @@ section {
   padding: 48px 16px;
 }
 
+/* Contenedor Central */
+.legal-page {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 56px 48px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
 
 /* ===============================
    Textos principales
