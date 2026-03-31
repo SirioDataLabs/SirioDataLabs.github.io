@@ -85,6 +85,12 @@ section {
   margin-top: 20px;
 }
 
+.page-frame {
+  background-color: #f7f9fc;
+  padding: 48px 16px;
+}
+
+
 /* ===============================
    Textos principales
 ================================ */
